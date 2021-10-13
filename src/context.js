@@ -53,6 +53,7 @@ export default class ContextProvider extends Component {
 
   componentDidMount() {
     this.getData();
+    console.log(process.env.space);
   }
 
   formatData(items) {
