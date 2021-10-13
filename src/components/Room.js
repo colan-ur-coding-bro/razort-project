@@ -8,7 +8,7 @@ export default function Room({ room }) {
     <article className="room">
       <div className="img-container">
         <img
-          style={{ height: "170px" }}
+          style={{ height: "200px" }}
           src={images[0] || defaultImage}
           alt=""
         />{" "}
