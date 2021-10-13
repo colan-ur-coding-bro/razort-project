@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import { useParams } from "react-router";
 import defaultBcg from "../images/room-2.jpeg";
-import Hero from "../components/Hero";
-import Baneer from "../components/banner";
 import { Link } from "react-router-dom";
 import { Provide } from "../context";
 import Banner from "../components/banner";

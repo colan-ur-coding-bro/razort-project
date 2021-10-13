@@ -33,7 +33,6 @@ export default function RoomsFilter({ rooms }) {
       </option>
     );
   });
-  const ppp = 600;
   //guests
   let people = getUnique(rooms, "capacity");
   people = ["all", ...people];

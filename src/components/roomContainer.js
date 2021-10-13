@@ -1,8 +1,7 @@
 import React from "react";
 import RoomsFilter from "./roomsFilter";
 import RoomsList from "./roomsList";
-import { Provide, Value } from "../context";
-import { useContext } from "react";
+import { Value } from "../context";
 import LoadingPage from "./Loading";
 
 export default function roomContainer() {

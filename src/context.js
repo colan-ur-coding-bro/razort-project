@@ -1,6 +1,5 @@
 import React, { Component, createContext } from "react";
 import { useContext } from "react";
-import data from "./data";
 import clint from "./Contentful";
 
 export const Provide = createContext();
@@ -91,18 +90,8 @@ export default class ContextProvider extends Component {
     );
   };
   filterRooms = () => {
-    let {
-      rooms,
-      type,
-      capacity,
-      price,
-      minPrice,
-      maxPrice,
-      minSize,
-      maxSize,
-      breakfast,
-      pets,
-    } = this.state;
+    let { rooms, type, capacity, price, minSize, maxSize, breakfast, pets } =
+      this.state;
 
     //type filter
     let tempRooms = [...rooms];
